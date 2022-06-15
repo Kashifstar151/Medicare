@@ -1,0 +1,53 @@
+.newsletter{
+    background: url('../assets/emailBg.svg') no-repeat;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    padding: 110px 121px;
+}
+.newsletter-wrapper {
+    background: #007FF4;
+    border-radius: 20px;
+    color: #ffffff;
+    text-align: center;
+    padding: 44px 0 105px 0;
+}
+.newsletter-wrapper h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 78px;
+    margin-bottom: 12px;
+}
+.newsletter-wrapper p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 39px;
+    margin-bottom: 80px;
+}
+.email-wrapper {
+    max-width: 846px;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+.email-wrapper input#formBasicEmail {
+    padding: 40px 36px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 39px;
+    color: #9B9B9B;
+}
+.email-wrapper button.btn.btn-primary {
+    padding: 27px 53px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #007FF4;
+    border-radius: 37px;
+    position: absolute;
+    top: 23px;
+    right: 20px;
+}

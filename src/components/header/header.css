@@ -1,0 +1,23 @@
+.header .navbar {
+    padding: 40px 0 58px 0px;
+}
+.header a.nav-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #0073FF !important;
+    margin-left: 54px !important;
+}
+.header a.nav-link:last-child {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    background: #0073FF;
+    color: white !important;
+    margin-left: 54px !important;
+    padding: 14px 57px;
+    border-radius: 24px;
+}
+.header .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav {
+    font-weight: 700;
+}

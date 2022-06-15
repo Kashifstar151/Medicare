@@ -1,0 +1,76 @@
+.clinic{
+    background: #ffffff;
+    padding: 60px 0;
+}
+.clinic-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.clinic-left{
+    max-width: 546px;
+    width: 100%;
+    margin-top: 200px;
+}
+.clinic-left h2 {
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 78px;
+    color: #003B79;
+    margin: 0;
+    padding-bottom: 30px;
+}
+.clinic-left p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 39px;
+    color: #002348;
+    margin: 0;
+    padding-bottom: 40px;
+}
+.clinic-left button.btn.btn-primary {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #007FF4;
+    border-radius: 30px;
+    padding: 20px 54px;
+}
+.float-card-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.float-card {
+    width: 282px;
+    height: 236px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 50px 25px rgb(0 59 121 / 7%);
+    position: relative;
+    border-radius: 20px;
+}
+.float-card img {
+    position: absolute;
+    bottom: 122px;
+    left: 23px;
+}
+.clinic-right {
+    max-width: 595px;
+    width: 100%;
+}
+.float-card-left .float-card:first-child{
+    margin: 200px 0;
+}
+.float-card h6 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #002348;
+    margin: 0;
+    padding: 154px 0 0 24px;
+}
+.float-card-right .float-card{
+    margin-top: 200px;
+}
